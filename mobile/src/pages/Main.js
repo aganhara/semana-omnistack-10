@@ -80,12 +80,7 @@ export default function Main({ navigation }) {
     );
   }
 
-  // useEffect(() => {
-  //   loadDevs();
-  // }, [loadDevs]);
-
   function handleRegionChanged(region) {
-    console.log(region);
     setCurrentRegion(region);
   }
 
