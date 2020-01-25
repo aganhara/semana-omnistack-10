@@ -5,11 +5,9 @@ export default function Profile({ navigation }) {
   const githubUsername = navigation.getParam('github_username');
 
   return (
-    // <View>
     <WebView
       style={{ flex: 1 }}
       source={{ uri: `https://github.com/${githubUsername}` }}
     />
-    // </View>
   );
 }
